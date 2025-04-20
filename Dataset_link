@@ -1,0 +1,26 @@
+📂 Dataset: Credit Card Fraud Detection (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+Source: Kaggle - Credit Card Fraud Detection Dataset
+Provider: ULB (Université Libre de Bruxelles)
+
+This dataset contains anonymized credit card transaction data collected over two days by a European cardholder. It presents a binary classification problem focused on distinguishing fraudulent transactions (positive class) from legitimate ones (negative class). Out of 284,807 total transactions, only 492 are frauds — making this a highly imbalanced dataset.
+
+Key Characteristics:
+
+Number of records: 284,807
+
+Number of features: 30 (28 anonymized PCA-transformed features + 'Time' + 'Amount')
+
+Target variable: Class (0 = legitimate, 1 = fraudulent)
+
+Class distribution:
+
+Legitimate: 284,315
+
+Fraudulent: 492
+
+No missing values
+
+Highly imbalanced – frauds represent only ~0.17% of all transactions
+
+Usage in Project: This dataset serves as the basis for training and evaluating a machine learning model for fraud detection. Due to the class imbalance, special preprocessing techniques like undersampling, data augmentation, and cost-sensitive evaluation are applied.
+
